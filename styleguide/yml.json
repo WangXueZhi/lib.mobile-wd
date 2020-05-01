@@ -1,0 +1,42 @@
+{
+  "通用类": [
+    "icon",
+    "touch-feedback",
+    "image-picker",
+    "image-upload",
+    "pagination",
+    "search-bar",
+    "lazy-load",
+    "swipe-slider",
+    "badge",
+    "scroll-container"
+  ],
+  "弹层类": [
+    "popup",
+    "toast",
+    "action-sheet",
+    "dialog",
+    "picker"
+  ],
+  "列表类": [
+    "list",
+    "list-item",
+    "panel",
+    "accordion",
+    "pull-to-refresh",
+    "swipe-action"
+  ],
+  "表单类": [
+    "input",
+    "input-item",
+    "form",
+    "form-dialog",
+    "button",
+    "button-group",
+    "radio",
+    "radio-group",
+    "check-box",
+    "check-box-group",
+    "switch"
+  ]
+}
