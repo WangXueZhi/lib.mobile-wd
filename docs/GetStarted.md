@@ -1,3 +1,14 @@
+### 1.创建一个项目（走公司模版创建，无需任何配置）
+公司内部<a href="http://pub.weidai.work/project/create" target="_blank">创建项目</a>，选择项目类型：**前端** -> 项目子类型：**移动端**
+> 走上述创建的项目，无需下面配置操作，开箱即用。
+
+### 2.依赖安装
+```bash
+npm i -g @weidai/tnpm   # 安装内部 npm 
+tnpm i -S @wd-h5/wd-mobile  # 下载依赖
+```
+> 内部组件库，需利用 `tnpm` 走内网下载
+
 ### 3.初始HTML
 解决不同机型的多倍屏问题，通过设置视网膜显示屏来达到统一的目的。
 > 组件尺寸大小都是基于 rem 开发，可以灵活调整以适用想要适配的视网膜显示屏
@@ -46,8 +57,8 @@
 ### 4.全量使用（**不推荐**）
 组件使用实例：
 ```jsx static
-import { Button } from 'wd-mobile';
-import 'wd-mobile/dist/@wd-h5/wd-mobile.css';
+import { Button } from '@wd-h5/wd-mobile';
+import '@wd-h5/wd-mobile/dist/@wd-h5/wd-mobile.css';
 
 ReactDOM.render(<Button>Start</Button>, document.body);
 ```
@@ -66,10 +77,10 @@ ReactDOM.render(<Button>Start</Button>, document.body);
           "style": true
         }, "wd-mobile"],
         ["import", {
-          "libraryName": "wd-mobile",
+          "libraryName": "@wd-h5/wd-mobile",
           "libraryDirectory": "lib",
           "style": true
-        }, "wd-mobile"]
+        }, "@wd-h5/wd-mobile"]
       ]
     }
     ```
@@ -80,14 +91,14 @@ ReactDOM.render(<Button>Start</Button>, document.body);
     // webpackConfig
     module.exports = {
       resolve: {
-        alias: {'wd-mobile': 'wd-mobile'}
+        alias: {'wd-mobile': '@wd-h5/wd-mobile'}
       }
       plugins: [...],
       ...
     }
     ```
 
-然后只需从 `wd-mobile` 引入模块即可，无需单独引入样式。（**`wd-mobile` 与 `wd-mobile` 可随意选择**）
+然后只需从 `wd-mobile` 引入模块即可，无需单独引入样式。（**`wd-mobile` 与 `@wd-h5/wd-mobile` 可随意选择**）
 ```jsx static
 import { Button } from 'wd-mobile';
 
@@ -96,6 +107,6 @@ ReactDOM.render(<Button>Start</Button>, document.body);
 
 - 方式二：手动引入需要的组件
 ```jsx static
-import Button from 'wd-mobile/lib/button';  // 加载 JS
-import 'wd-mobile/lib/button/style';  // 加载 CSS
+import Button from '@wd-h5/wd-mobile/lib/button';  // 加载 JS
+import '@wd-h5/wd-mobile/lib/button/style';  // 加载 CSS
 ```

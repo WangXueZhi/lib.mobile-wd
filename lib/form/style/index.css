@@ -1,0 +1,4 @@
+.x-toast{display:inline-block;max-width:16em;position:relative;left:50%;transform:translateX(-50%);border-radius:.2rem;padding:.375rem 1rem;text-align:center;color:#fff;line-height:1.25;background-color:rgba(0,0,0,.6);white-space:normal;word-wrap:break-word;word-break:break-all}.x-toast .x-icon{font-size:2rem}
+.x-form .x-input-item{border-bottom:1px solid #e0e0e0;margin-left:.5rem;transition:border-bottom-color .3s}.x-form .x-input-item-warn{border-bottom-color:#ff3953}
+
+/*# sourceMappingURL=index.css.map*/

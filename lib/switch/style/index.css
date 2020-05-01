@@ -1,0 +1,4 @@
+.x-icon{font-size:1rem;display:inline-block;transition:transform .3s}
+.x-switch{display:inline-block;width:3rem;height:1.65rem;border-radius:1.125rem;cursor:pointer;text-align:left;background-color:#67c23a;transition:background-color .3s;line-height:1.5}.x-switch.x-switch-off{background-color:#999!important}.x-switch.x-switch-off .x-switch-inner{transform:translateX(4%)}.x-switch.x-switch-off .x-switch-innerText{transform:translateX(15%)}.x-switch-inner{border-radius:50%;background-color:#fff;width:1.5rem;height:1.5rem;transform:translateX(95%);text-align:center}.x-switch-inner,.x-switch-innerText{display:inline-block;position:relative;top:5%;transition:transform .3s}.x-switch-innerText{transform:translateX(-115%);vertical-align:super;color:#fff}.x-switch .x-icon{position:relative;vertical-align:super}
+
+/*# sourceMappingURL=index.css.map*/

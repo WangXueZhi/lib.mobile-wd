@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///index.scss"],"names":[],"mappings":"AAMA,aACI,wBACJ,C","file":"lazy-load/style/index.css","sourcesContent":["@import \"../../style/common/variables.scss\";\n@import \"../../style/common/mixin.scss\";\n@import \"../../style/global.scss\";\n\n$rootName: x-lazy-load;\n\n.#{$rootName} {\n    background-color: #a9a9a9;\n}"],"sourceRoot":""}

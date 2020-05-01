@@ -1,0 +1,5 @@
+.x-icon{font-size:1rem;display:inline-block;transition:transform .3s}
+.x-popup{position:relative;z-index:-1}.x-popup.x-popup-visible{z-index:1000}.x-popup-modal{position:fixed;z-index:1000;display:none}.x-popup-mask{position:fixed;top:0;left:0;right:0;bottom:0;z-index:100;display:none}
+.x-toast{display:inline-block;max-width:16em;position:relative;left:50%;transform:translateX(-50%);border-radius:.2rem;padding:.375rem 1rem;text-align:center;color:#fff;line-height:1.25;background-color:rgba(0,0,0,.6);white-space:normal;word-wrap:break-word;word-break:break-all}.x-toast .x-icon{font-size:2rem}
+
+/*# sourceMappingURL=index.css.map*/
